@@ -1,3 +1,5 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 import math
 import pytest
 from calculator import add, subtract, multiply, divide
